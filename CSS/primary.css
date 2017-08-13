@@ -9,3 +9,14 @@ body
 {
 	
 }
+
+/********* WRAPPER SECTIONS *********/
+
+#WRA01
+{
+	height:						100vh;
+	
+	background-image:			url("../ASSETS/IMAGES/BACKGROUNDS/LANDSCAPES/BGL_MOONRISE_450-600_V1.jpg");
+	background-repeat:			no-repeat;
+	background-size: 			cover;
+}
