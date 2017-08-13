@@ -19,4 +19,7 @@ body
 	background-image:			url("../ASSETS/IMAGES/BACKGROUNDS/LANDSCAPES/BGL_MOONRISE_450-600_V1.jpg");
 	background-repeat:			no-repeat;
 	background-size: 			cover;
+	
+	background-color:			#303030;
+	background-blend-mode:		multiply;
 }
