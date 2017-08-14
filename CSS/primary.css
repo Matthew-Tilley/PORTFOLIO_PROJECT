@@ -14,6 +14,11 @@ body
 
 #WRA01
 {
+	display:					flex;
+	flex-direction: 			column;
+	justify-content: 			center;
+	align-items: 				center;
+	
 	height:						100vh;
 	
 	background-image:			url("../ASSETS/IMAGES/BACKGROUNDS/LANDSCAPES/BGL_MOONRISE_450-600_V1.jpg");
@@ -21,5 +26,22 @@ body
 	background-size: 			cover;
 	
 	background-color:			#303030;
-	background-blend-mode:		saturation;
+	background-blend-mode:		multiply;
 }
+
+img
+{
+	height:						20vh;
+}
+
+
+.H2T01
+{
+	display:					none;
+	color: 						white;
+	font-family: 				impact;
+	font-size: 					6.5rem;
+	opacity: 					.35;
+	text-shadow: 				2px 2px black;
+}
+
