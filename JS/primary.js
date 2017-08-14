@@ -7,8 +7,7 @@ $(document).ready(function()
 	
 	test.forEach(function(item, index)
 	{
-		$(item).delay(3000);
-		console.log(item, index);
+		setInterval(function(){ console.log("HELLO " + item);	}, 5000);
 	});
 	
 });
