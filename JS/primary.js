@@ -1,13 +1,20 @@
+var H201 = document.getElementById("H201");
+var H202 = document.getElementById("H202");
+var H203 = document.getElementById("H203");
+
+var intro_1 = [H201, H202, H203];
+
 $(document).ready(function()
-{
-	var a = document.getElementById("H201");
-	var b = document.getElementById("H202");
-	
-	var test = ["THIS", "THAT", "ELSE", "WHAT"];
-	
-	test.forEach(function(item, index)
-	{
-		setInterval(function(){ console.log("HELLO " + item);	}, 5000);
-	});
+{	
+
+	$.each(intro_1, function(i, item){
+		
+		setTimeout(function(){
+			$(item)	.delay(2000).fadeIn(1500)
+					.fadeOut(1500).delay(2000);
+		}, i * 3000);
+		
+	})
 	
 });
+
