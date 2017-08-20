@@ -29,6 +29,37 @@ $(document).ready(function()
 	$("#LOC01").delay(16000)
 				.fadeTo(4000, 0);
 	
+	setTimeout(function()
+	{
+		
+		$("#WRA01").hide()
+		$("#WRA02").css("display", "grid");
+		
+	}, 20000);
+	
+	
+	setTimeout(function()
+	{
+		
+		var a = document.getElementById("BOX01");
+		var b = document.getElementById("BOX02");
+		var c = document.getElementById("BOX03");
+		var d = document.getElementById("BOX04");
+		var e = document.getElementById("BOX05");
+		
+		var fader = [a, b, c, d]
+		
+		$.each(fader, function(i, item){
+		
+		setTimeout(function(){
+			$(item)	.fadeIn()
+					.css("display", "flex");
+			
+		}, i * 250);
+		
+	})
+		
+	}, 21000);
 	
 	
 	
