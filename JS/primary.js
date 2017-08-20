@@ -6,7 +6,7 @@ var intro_1 = [H201, H202, H203];
 
 $(document).ready(function()
 {	
-
+		
 	$.each(intro_1, function(i, item){
 		
 		setTimeout(function(){
@@ -15,6 +15,20 @@ $(document).ready(function()
 		}, i * 3000);
 		
 	})
+	
+	$("#LOG01")	.delay(11000)
+				.fadeIn(3000);
+	$("#H204")	.delay(11250)
+				.fadeIn(4000);
+	
+	$("#WRA02")	.delay(15000)
+	  			.fadeTo(0);
+	
+	$(window)	.delay(16000, function()
+	{
+		$("#WRA01").fadeIn(2000);
+	});
+	
 	
 });
 

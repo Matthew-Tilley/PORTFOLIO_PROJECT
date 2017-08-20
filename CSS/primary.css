@@ -14,10 +14,19 @@ body
 
 #WRA01
 {
+	
+	display:					none;
+	height:						100vh;
+	background-image: 			url("../ASSETS/IMAGES/BACKGROUNDS/LANDSCAPES/BGL_MOONRISE_450-600_V1.jpg");
+	
+}
+
+#WRA02
+{
 	display:					flex;
 	flex-direction: 			column;
 	justify-content: 			center;
-	align-items: 				center;
+	align-items: 				center;		
 	
 	height:						100vh;
 	
@@ -27,9 +36,19 @@ body
 	
 	background-color:			#303030;
 	background-blend-mode:		multiply;
+	opacity:					1;
 }
 
-img
+#LOC01
+{
+	display:					flex;
+	flex-direction: 			column;
+	align-items: 				center;
+	justify-content: 			space-between;
+}
+
+
+.LOGT01
 {
 	height:						20vh;
 }
@@ -43,5 +62,23 @@ img
 	font-size: 					6.5rem;
 	opacity: 					.45;
 	text-shadow: 				2px 2px black;
+}
+
+.H2T02
+{
+	font-family: 				audiowide, cursive;
+	font-size:					4rem;
+	color: 						gray;
+}
+
+#H204
+{
+	display:					none;
+	color:						#1B6AB8;
+}
+
+#LOG01
+{
+	display:					none;
 }
 
