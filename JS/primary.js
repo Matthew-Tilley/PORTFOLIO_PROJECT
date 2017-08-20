@@ -26,7 +26,7 @@ $(document).ready(function()
 				.fadeIn(4000)
 				.fadeOut(700);
 	
-	$("#LOC02").delay(16000)
+	$("#LOC01").delay(16000)
 				.fadeTo(4000, 0);
 	
 	

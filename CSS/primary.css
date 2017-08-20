@@ -12,12 +12,12 @@ body
 
 /********* WRAPPER SECTIONS *********/
 
-#WRA01
+#WRA02
 {
 	background-image: 			url("../ASSETS/IMAGES/BACKGROUNDS/LANDSCAPES/BGL_MOONRISE_450-600_V1.jpg");
 }
 
-#WRA02
+#WRA01
 {
 	display:					flex;
 	flex-direction: 			column;
@@ -34,7 +34,7 @@ body
 	
 }
 
-#LOC01
+#LOC02
 {
 	display:					flex;
 	flex-direction: 			column;
@@ -42,7 +42,7 @@ body
 	justify-content: 			space-between;
 }
 
-#LOC02
+#LOC01
 {
 	display:					flex;
 	flex-direction: 			column;
