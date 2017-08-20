@@ -17,6 +17,8 @@ $(document).ready(function()
 		
 	})
 	
+	
+	
 	$("#LOG01")	.delay(11000)
 				.fadeIn(3000)
 				.delay(1000)
@@ -29,13 +31,15 @@ $(document).ready(function()
 	$("#LOC01").delay(16000)
 				.fadeTo(4000, 0);
 	
+	
+	
 	setTimeout(function()
 	{
 		
 		$("#WRA01").hide()
 		$("#WRA02").css("display", "grid");
 		
-	}, 20000);
+	}, 19250);
 	
 	
 	setTimeout(function()
@@ -49,16 +53,25 @@ $(document).ready(function()
 		
 		var fader = [a, b, c, d]
 		
-		$.each(fader, function(i, item){
+		$.each(fader, function(i, item)
+		{
 		
-		setTimeout(function(){
-			$(item)	.fadeIn()
-					.css("display", "flex");
+			setTimeout(function()
+			{	
+				$(item)	.fadeIn()
+						.css("display", "flex");
 			
-		}, i * 250);
+			}, i * 250);
 		
-	})
+		});
 		
+	}, 20000);
+	
+	
+	setTimeout(function()
+	{
+		$("#BOX05")	.fadeIn(3000)
+					.css("display", "flex");
 	}, 21000);
 	
 	
@@ -68,5 +81,5 @@ $(document).ready(function()
 	
 	
 	
-});
+});  /*END DOCUMENT . READY*/
 
