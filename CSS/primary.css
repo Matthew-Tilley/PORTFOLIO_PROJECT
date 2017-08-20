@@ -12,7 +12,10 @@ body
 
 /********* WRAPPER SECTIONS *********/
 
-
+#WRA01
+{
+	background-image: 			url("../ASSETS/IMAGES/BACKGROUNDS/LANDSCAPES/BGL_MOONRISE_450-600_V1.jpg");
+}
 
 #WRA02
 {
@@ -23,13 +26,12 @@ body
 	
 	height:						100vh;
 	
-	background-image:			url("../ASSETS/IMAGES/BACKGROUNDS/LANDSCAPES/BGL_MOONRISE_450-600_V1.jpg");
+	background-image: 			url("../ASSETS/IMAGES/BACKGROUNDS/LANDSCAPES/BGL_MOONRISE_450-600_V1.jpg");
 	background-repeat:			no-repeat;
 	background-size: 			cover;
 	
-	background-color:			#303030;
-	background-blend-mode:		multiply;
-	opacity:					1;
+	z-index: 					-999;
+	
 }
 
 #LOC01
@@ -38,6 +40,23 @@ body
 	flex-direction: 			column;
 	align-items: 				center;
 	justify-content: 			space-between;
+}
+
+#LOC02
+{
+	display:					flex;
+	flex-direction: 			column;
+	justify-content: 			center;
+	align-items: 				center;
+	
+	height:						100vh;
+	width:						100vw;
+	
+	background-image: 			url("../ASSETS/IMAGES/BACKGROUNDS/LANDSCAPES/BGL_MOONRISE_450-600_V1.jpg");
+	background-repeat:			no-repeat;
+	background-size: 			cover;
+	background-color: 			#303030;
+	background-blend-mode: 		multiply;
 }
 
 
