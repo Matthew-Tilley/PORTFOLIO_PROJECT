@@ -37,6 +37,7 @@ $(document).ready(function()
 	{
 		
 		$("#WRA01").hide()
+		$("#LOC01").hide()
 		$("#WRA02").css("display", "grid");
 		
 	}, 19250);
