@@ -154,7 +154,9 @@ body
 	
 	display:					none;
 	justify-content: 			center;
-	align-items: 				center;
+	align-items: 				flex-start;
+	
+	padding-top:				3rem;
 	
 	background-color:			darkblue;
 	opacity:					.4;
@@ -232,7 +234,29 @@ body
 {
 	
 	width:						60%;
+	opacity:					.65;
 }
 
+
+#idea
+{
+	padding:					2rem;
+	display:					flex;
+	justify-content: 			center;
+	align-items: 				center;
+	
+	
+	height:			10vh;
+	background-color:	black;
+
+	
+	
+}
+
+h5
+{
+	font-size:					3rem;
+	font-family: 				arial;
+}
 
 
