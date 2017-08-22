@@ -1,4 +1,19 @@
 $(document).ready(function()
 {
-	$("#H201").show();
+	function intro()
+	{
+		
+		setTimeout(function()
+		{
+			$("#H201").fadeIn(1000);
+			
+			
+		}, 8000);
+		
+	}
+	
+	intro();
+	
+	
 });
+
