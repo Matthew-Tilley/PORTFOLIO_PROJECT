@@ -12,6 +12,7 @@ $(document).ready(function()
 		$.each(cycler, function(item)
 		{
 			
+			document.write("LKAJSDLKJASD");
 			
 		});
 		
