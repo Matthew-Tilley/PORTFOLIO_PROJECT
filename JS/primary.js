@@ -9,16 +9,19 @@ $(document).ready(function()
 		var cycler = [b,c];
 		
 		
-		$.each(cycler, function(item)
+		$.each(fader, function(i, item)
 		{
 			
-			document.write("LKAJSDLKJASD");
+			setTimeout(function()
+			{
+				$(item).fadeIn();
+			});
 			
 		});
 		
 	}
 	
-	intro();
+
 	
 	
 });
