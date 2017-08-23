@@ -9,15 +9,8 @@ $(document).ready(function()
 		var cycler = [b,c];
 		
 		
-		setTimeout(function(item)
+		$.each(cycler, function(item)
 		{
-			$.each(cycler()
-			{
-				$(cycler) 	.fadeIn(1000)
-							.delay(1000)
-							.fadeOut(1000);
-			});
-			
 			
 			
 		});
