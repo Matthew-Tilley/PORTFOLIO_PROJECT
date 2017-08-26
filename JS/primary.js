@@ -5,11 +5,13 @@ $(document).ready(function()
 	
 	function intro()
 	{
-		console.log("LKJALKJLKJLKJLKJ");
+		console.log("ooooooooooooooooooooo");
 	}
+	
+	intro();
 	
 });
 
-intro();
+
 
 
