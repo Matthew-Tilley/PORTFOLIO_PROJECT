@@ -7,7 +7,8 @@ $(document).ready(function()
 	{
 		var H201 = document.getElementById("H201");
 		var H202 = document.getElementById("H202");
-		$(H202).show();
+		var H203 = document.getElementById("H203");	
+		$(H203).show();
 	}
 	
 	intro();
