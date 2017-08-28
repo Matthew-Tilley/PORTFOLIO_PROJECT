@@ -2,6 +2,16 @@
 
 $(document).ready(function()
 {
+	$("#LOC01")	.delay(16000)
+				.fadeTo(4000, 0);
+	
+	
+	setTimeout(function()
+	{
+		$("#WRA01").hide()
+		$("#WRA02").css("display", "grid");
+	}, 18000);
+	
 	
 	function intro()
 	{
@@ -21,6 +31,17 @@ $(document).ready(function()
 			}, index * 4000);
 			
 		});
+		
+		setTimeout(function()
+		{
+			
+			$("#WRA01").fadeOut(4000);
+			$("#WRA02").fadeIn(4000);
+			
+			
+		}, 10000);
+		
+		
 		
 	}
 	
